@@ -1,6 +1,6 @@
 # Child Mind Institute — Problematic Internet Use
 
-This repository contains a single Jupyter Notebook, **prediction_internet_usage.ipynb**, which includes all the code for predicting problematic internet usage in children and adolescents based on physical activity data. The project is part of a Kaggle competition, and while this repository holds the full code, the competition’s dataset and related files can be found on [Kaggle](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/overview).
+This repository contains, **prediction_internet_usage.ipynb**, which includes all the code for predicting problematic internet usage in children and adolescents based on physical activity data. The project is part of a Kaggle competition, and while this repository holds the full code, the competition’s dataset and related files can be found on [Kaggle](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/overview).
 
 ## Table of Contents
 
@@ -55,10 +55,8 @@ During training with a 5-fold cross-validation strategy, results are as follows:
 - Optimized QWK Score: 0.550
 
 ## Acknowledgements
-Child Mind Institute: For their continuous work in children’s mental health.
-Kaggle: For hosting the competition and providing a rich dataset.
-Healthy Brain Network (HBN): For the comprehensive data collection.
-Special thanks to all contributors and researchers in the fields of ML, DL, and Data Science.
-
+- Child Mind Institute: For their continuous work in children’s mental health.
+- Kaggle: For hosting the competition and providing a rich dataset.
+- Healthy Brain Network (HBN): For the comprehensive data collection.
 
 
