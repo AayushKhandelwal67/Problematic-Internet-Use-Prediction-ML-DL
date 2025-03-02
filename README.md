@@ -8,10 +8,7 @@ This repository contains a single Jupyter Notebook, **prediction_internet_usage.
 - [Data Description](#data-description)
 - [Notebook Overview](#notebook-overview)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
@@ -46,9 +43,22 @@ The **prediction_internet_usage.ipynb** notebook includes:
 - **Submission File Generation:** Creating a CSV file for competition submission.
 
 ## Installation
+The necessary dependencies are listed in the notebook. You can install them with:
 
-1. **Clone the Repository:**
+ pip install pandas numpy torch scikit-learn lightgbm xgboost catboost scipy tqdm jupyter
 
-   ```bash
-   git clone https://github.com/your_username/child-mind-institute-piu.git
-   cd child-mind-institute-piu
+## Results
+During training with a 5-fold cross-validation strategy, results are as follows:
+
+- Mean Train QWK: 0.8096
+- Mean Validation QWK: 0.4964
+- Optimized QWK Score: 0.550
+
+## Acknowledgements
+Child Mind Institute: For their continuous work in children’s mental health.
+Kaggle: For hosting the competition and providing a rich dataset.
+Healthy Brain Network (HBN): For the comprehensive data collection.
+Special thanks to all contributors and researchers in the fields of ML, DL, and Data Science.
+
+
+
